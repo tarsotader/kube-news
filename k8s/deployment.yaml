@@ -60,7 +60,7 @@ spec:
     spec:
      containers:
        - name: web
-         image: tarsotoniolo/kube-news: 3
+         image: tarsotoniolo/kube-news:{{TAG}}
          ports:
          - containerPort: 8080
          env:
